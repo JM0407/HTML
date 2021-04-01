@@ -1,0 +1,57 @@
+3 main developer
+1. front end
+2. back end
+3, full stack
+
+Front end developers uses
+1.Html - Hyper Text Markup Language - use to define the building block of the webpage
+2.Css  - Cascading StyleSheet - use for styling webpages
+3.JavaScript - use to add functionality to webpages
+
+Frameworks - help us build applications faster
+1. React	
+2. Angular
+3. Vue
+
+Version control system
+1. Github
+
+How the web works
+1. URL- uniform resource locator
+2. client -> server   request
+3. http- hyper text transfer protocol
+4. https - http with encryption
+5. server -> client   response
+6. DOM - Document Object Model
+7. inspecting request and response using f12
+
+HTML and css basics
+1. open new folder on vscode
+2. create index.html file
+3. insert all necessary elements inside the html file
+	a.<!DOCTYPE html>
+	b.<html></html>
+	c.<head></head>
+	d.<body></body>
+4. to use css, <style></style> under header
+5. create class for each tag you wanna separate ex <p class="name">
+6. inside style, create either tags or class attributes , ex p{} or .names{}
+7. to validate html go to validator.w3.org
+8. for css validator go to jigsaw.w3.org/css-validator
+
+essential html elements
+Tip to create basic html template type ! then click tab
+
+1. head section 
+	a. meta : use to list info about webpage, ex: viewport , charset, description
+2. text
+	a. <p></p> paragraph , this is use to display text in the webpage
+	b. <em></em> emphasis, use to empasized certasin text
+	c. <i></i> italicized
+	d. <strong></strong>
+	e. <b></b>
+	f. <h1></h1> up to h6 , always start at h1 and only 1 h1 should be present
+	g. to use entities jut type &: between & and : you can add the entities ex: &lt: , < or google html entities
+
+
+

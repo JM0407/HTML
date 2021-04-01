@@ -1,0 +1,80 @@
+1.CSS selector
+	a. you can select an element you want to modify in css by calling it inside <style></style>
+		ex: lets call p element and change its color to red
+			<html>
+			<head>
+				<style>
+					p {
+  						color: red;
+					}
+				</style>
+			</head>
+			<body>
+
+				<h1>This is a Heading</h1>
+				<p>This is a paragraph.</p>
+				<p>This is another paragraph.</p>
+
+			</body>
+			</html>
+
+	b. to call id use # selector
+		ex: Change the color of the element with id="para1", to "red".
+			<!DOCTYPE html>
+			<html>
+			<head>
+				<style>
+					#para1 {
+ 						 color: red;
+						}
+				</style>
+			</head>
+			<body>
+
+				<h1>This is a Heading</h1>
+				<p id="para1">This is a paragraph.</p>
+				<p>This is another paragraph.</p>
+
+			</body>
+			</html>
+	c. to call class use . selector
+		ex: Change the color of all elements with the class "colortext", to "red".
+			<!DOCTYPE html>
+			<html>
+			<head>
+				<style>
+					.colortext {
+  						color: red;
+					}
+				</style>
+			</head>
+			<body>
+
+				<h1>This is a Heading</h1>
+				<p>This is a paragraph.</p>
+				<p class="colortext">This is another paragraph.</p>
+				<p class="colortext">This is also a paragraph.</p>
+
+			</body>
+			</html>
+    
+    d. We can also group selectors
+        ex: Change the color of all <p> and <h1> elements, to "red". Group the selectors to minimize code.
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <style>
+                    h1, p {
+                        color: red;
+                    }
+                </style>
+            </head>
+            <body>
+
+                <h1>This is a heading</h1>
+                <h2>This is a smaller heading</h2>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>

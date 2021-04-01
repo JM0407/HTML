@@ -1,0 +1,90 @@
+2. How to's
+    a. We can call an external stylesheet file
+        ex:Add an external style sheet with the URL: "mystyle.css".
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <link rel="stylesheet" href="mystyle.css">
+            </head>
+            <body>
+
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>
+    
+    b. We can set the backgorund color of the page using background-color property
+        ex: Set "background-color: linen" for the page, using an internal style sheet.
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <style>
+                    body {
+                        background-color: linen;
+                    }
+                </style>
+            </head>
+            <body>
+
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>
+    
+    c. We can aslo apply CSS in inline style
+        ex:Set "background-color: linen" for the page, using an inline style.
+            <!DOCTYPE html>
+            <html>
+            <head>
+            </head>
+            <body style="background-color: linen">
+
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>
+
+    d. Removing style sheet is easy, just delete it 
+        ex: Remove all styles, except the external style sheet "mystyle.css".
+
+        BEFORE:
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <link rel="stylesheet" href="mystyle.css">
+                <style>
+                    p {
+                        color: red;
+                    }
+                </style>
+            </head>
+            <body style="background-color: lightcyan">
+
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>
+
+        AFTER:
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <link rel="stylesheet" href="mystyle.css">
+            </head>
+            <body>
+
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                <p>This is another paragraph.</p>
+
+            </body>
+            </html>
+
